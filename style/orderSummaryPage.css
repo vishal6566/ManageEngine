@@ -1,0 +1,469 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+#ospNav {
+   background-color: #142357;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+#subosp1 {
+   width: 20%;
+   margin-left: 100px;
+   display: flex;
+   gap: 20px;
+}
+#subosp2 {
+   width: 28%;
+
+   display: flex;
+   gap: 20px;
+}
+#subosp1 > h2 {
+   font-size: 35px;
+   margin: 10px 0px;
+}
+#subosp1 > p {
+   margin-top: 25px;
+}
+#subosp2 > button {
+   color: white;
+   background-color: rgb(223, 77, 57);
+   font-size: 18px;
+   margin: 3px 0px;
+   padding: 0px 15px;
+   border-radius: 5px;
+   border: none;
+   margin-left: 100px;
+}
+#subosp2 > div {
+   display: flex;
+   gap: 5px;
+}
+#subosp2 > div > img {
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+}
+#subosp2 > div > h2 {
+   color: #e9a40e;
+   font-size: 25px;
+   margin-top: 15px;
+   margin-right: 20x;
+}
+#partnerss:hover {
+   cursor: pointer;
+}
+#csbtn:hover {
+   cursor: pointer;
+}
+#divOuter {
+   width: 80%;
+   margin: auto;
+   display: flex;
+   gap: 50px;
+}
+#leftDiv {
+   border-right: 1px solid rgb(231, 226, 226);
+   width: 25%;
+   margin-top: 35px;
+}
+#rightDiv {
+   width: 75%;
+}
+#head1 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin-top: 30px;
+   margin: 15px 0px;
+}
+#head1:hover {
+   cursor: pointer;
+}
+#subhead1 {
+   display: none;
+   color: #777777;
+   font-weight: 300;
+}
+#subhead1 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead1 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head2 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head2:hover {
+   cursor: pointer;
+}
+#subhead2 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+
+#subhead2 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead2 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head3 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head3:hover {
+   cursor: pointer;
+}
+#subhead3 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead3 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead3 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head4 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head4:hover {
+   cursor: pointer;
+}
+#subhead4 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead4 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead4 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head5 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head5:hover {
+   cursor: pointer;
+}
+#subhead5 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead5 > p {
+   padding-left: 50px;
+}
+#subhead5 > p:hover {
+   color: blue;
+   cursor: pointer;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#head6 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head6:hover {
+   cursor: pointer;
+}
+#subhead6 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead6 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead6 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head7 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head7:hover {
+   cursor: pointer;
+}
+#subhead7 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead7 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead7 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head8 {
+   color: #777777;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head8:hover {
+   cursor: pointer;
+}
+#subhead8 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead8 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead8 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+
+#underline {
+   border: 1px solid #ebeaea;
+   height: 3px;
+   margin-top: 40px;
+}
+#ordersumhead {
+   font-size: 38px;
+   margin-top: 20px;
+}
+#sumbill {
+   height: 45px;
+   display: flex;
+   background-color: #c4c4c4;
+   margin-top: 25px;
+   color: white;
+   border-radius: 20px;
+   width: 85%;
+   justify-content: center;
+   gap: 10px;
+}
+#sumbill > div {
+   background-color: #7bbb29;
+   width: 35%;
+   border-radius: 20px;
+   border-right: 3px solid white;
+}
+#sumbill > div > p {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+#sumbill > p {
+   width: 65%;
+   font-size: 20px;
+   font-weight: bolder;
+   margin-top: 10px;
+}
+#productDetails {
+   height: 30px;
+   width: 90%;
+   margin-top: 30px;
+   color: #5273ac;
+   display: flex;
+   justify-content: space-around;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+#hrp {
+   width: 90%;
+}
+
+#productDescription1 {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 90%;
+   margin-top: 20px;
+}
+#productDescription1:hover {
+   cursor: pointer;
+   background-color: #f5f0f0;
+}
+#divo {
+   width: 25%;
+   line-height: 20px;
+   font-size: 16px;
+   font-weight: lighter;
+   margin-left: 50px;
+}
+#priceo {
+   border: 1px solid #7f9db9;
+   height: 30px;
+   width: 30px;
+   margin-left: 90px;
+   text-align: center;
+   font-size: 15px;
+}
+#productDescription1 > p:nth-child(1) {
+   margin-left: 40px;
+}
+#uppp {
+   margin-left: 29px;
+}
+#ppp {
+   margin-left: 80px;
+}
+#hhrr {
+   width: 90%;
+   border: 1px solid rgb(205, 239, 160);
+   margin-top: 40px;
+}
+#bottompart {
+   margin-top: 60px;
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+}
+
+#subbottompart1 {
+   height: 300px;
+   width: 42%;
+}
+#subbottompart2 {
+   height: 300px;
+   width: 42%;
+}
+#coupon {
+   height: 40%;
+   background-color: rgb(237, 237, 237);
+   border-radius: 10px;
+   width: 85%;
+   position: relative;
+}
+#pc {
+   color: blue;
+   font-weight: bolder;
+   text-align: center;
+   padding-top: 10px;
+}
+#coupon-code {
+   width: 90%;
+   height: 30px;
+   border-radius: 20px;
+   margin-left: 18px;
+   margin-top: 15px;
+   text-align: center;
+}
+#couponbtn {
+   background-color: #fcb923;
+   height: 35px;
+   padding: 5px 15px;
+   font-size: 14px;
+   font-weight: bold;
+   border: none;
+   border-radius: 20px;
+   border: 2px solid white;
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+#couponbtn:hover {
+   cursor: pointer;
+}
+#gpq {
+   background-color: #ff7b0d;
+   width: 85%;
+   height: 50px;
+   font-size: 25px;
+   color: white;
+   margin-top: 60px;
+   border: none;
+   border-radius: 20px;
+}
+#gpq:hover {
+   cursor: pointer;
+}
+#subprice {
+   height: 50px;
+   display: flex;
+
+   font-size: 18px;
+}
+#subprice > h3:first-child {
+   font-style: italic;
+   color: grey;
+   margin-top: 10px;
+}
+#subprice > h3:last-child {
+   margin-left: 90px;
+   margin-top: 10px;
+}
+#subprice1 {
+   height: 50px;
+   display: flex;
+
+   font-size: 18px;
+}
+#subprice1 > h3:first-child {
+   color: rgb(42, 40, 40);
+   margin-top: 10px;
+}
+#subprice1 > h3:last-child {
+   margin-left: 55px;
+   margin-top: 10px;
+}
+#contiunecheckout {
+   background-color: #7bbb29;
+   width: 85%;
+   height: 50px;
+   font-size: 25px;
+   color: white;
+   margin-top: 80px;
+   border: none;
+   border-radius: 20px;
+}
+#contiunecheckout:hover {
+   cursor: pointer;
+}

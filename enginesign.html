@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ManageEngine-signup</title>
+    <link rel="stylesheet" href="./style/account.css" />
+    <style></style>
+</head>
+
+<body>
+    <div id="bodyies">
+        <div id="logo">
+            <a href="https:www.manageengine.com/">
+                <img id="heat" title="ManageEngine - Enterprise IT Management" src="	https://www.manageengine.com/images/logo/manageengine-logo.svg
+                " alt="ManageEngine - Enterprise IT Management" />
+            </a>
+        </div>
+        <form id="frame">
+            <input id="name" type="text" placeholder="Your Name" />
+            <input id="user_name" type="text" placeholder="User Name" />
+            <input id="your_email" type="text" placeholder="Your Email Address" />
+            <!-- <img id="icon" src="https://www.iconsdb.com/icons/preview/green/ok-xxl.png" alt="" /> -->
+            <input id="your_pass" type="password" placeholder="Password" />
+            <input type="submit" id="sign_up" value="Create An Account">
+            <span>Already have an account? <a id="loginbtn" href="enginelogin.html">Login</a></span>
+            <p class="privacypara">By clicking 'Sign Up',you agree to the <a href="#">terms</a> and <a href="#">privacy
+                    policy</a>.</p>
+
+        </form>
+
+        <div id="foot_copy">
+            <span id="copy_year">@ 2022</span>
+            " Zoho Corp. All rights reserved."
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+
+    let signup = async (event) => {
+        event.preventDefault();
+        let form = document.getElementById("frame");
+        let signUpData = {
+            name: form.name.value,
+            email: form.your_email.value,
+            password: form.your_pass.value,
+            username: form.user_name.value,
+            mobile: Date.now().toString().substring(0, 10),
+            description: "New User",
+        };
+
+        let url = "https://masai-api-mocker.herokuapp.com/auth/register"
+
+        let response = await fetch(url, {
+            method: "POST",
+            body: JSON.stringify(signUpData),
+            headers: {
+                "Content-Type": "application/json",
+            },
+        });
+        let data = await response.json();
+        alert(data.message)
+    };
+
+
+    document.getElementById("frame").addEventListener("submit", signup);
+</script>

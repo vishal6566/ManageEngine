@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets\logo.png" type="image/x-icon" />
+
+    <title>Billing Page</title>
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/billingPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body onload="getPrice()">
+    <div class="mainHeader"></div>
+    <section>
+        <div id="ospNav">
+            <div id="subosp1">
+                <h2>Store</h2>
+                <p>Home » Online Store</p>
+            </div>
+            <div id="subosp2">
+                <button id="csbtn">Continue Shopping <i class="fa-solid fa-cart-shopping"></i></button>
+                <div id="partnerss">
+                    <img src="	https://store.manageengine.com/images/partners.png" alt="" />
+                    <h2>Partners</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="divOuter">
+            <div id="leftDiv">
+                <div>
+                    <ul id="head1" onclick="main1()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Identity and access management
+                    </ul>
+                    <hr />
+                    <div id="subhead1">
+                        <p>ADManager Plus</p>
+                        <hr id="hr1" />
+                        <p>ADAudit Plus</p>
+                        <hr />
+                        <p>ADSelfService Plus</p>
+                        <hr />
+                        <p>Exchange Reporter Plus</p>
+                        <hr />
+                        <p>RecoveryManager Plus</p>
+                        <hr />
+                        <p style="color: blue">AD360</p>
+                        <hr />
+                        <p>M365 Manager Plus</p>
+                        <hr />
+                        <p>PAM360</p>
+                        <hr />
+                        <p>Password Manager Pro</p>
+                        <hr />
+                        <p>Access Manager Plus</p>
+                        <hr />
+                        <p>Key Manager Plus</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head2" onclick="main2()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Enterprise service management
+                    </ul>
+                    <hr />
+                    <div id="subhead2">
+                        <p>ServiceDesk Plus</p>
+                        <hr />
+                        <p>ServiceDesk Plus – Multi Language</p>
+                        <hr />
+                        <p>SupportCenter Plus</p>
+                        <hr />
+                        <p>AssetExplorer</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head3" onclick="main3()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Unified endpoint management and security
+                    </ul>
+                    <hr />
+                    <div id="subhead3">
+                        <p>Endpoint Central</p>
+                        <hr />
+                        <p>Mobile Device Manager Plus</p>
+                        <hr />
+                        <p>Patch Manager Plus</p>
+                        <hr />
+                        <p>Patch Connect Plus</p>
+                        <hr />
+                        <p>OS Deployer</p>
+                        <hr />
+                        <p>Remote Access Plus</p>
+                        <hr />
+                        <p>Vulnerability Manager Plus</p>
+                        <hr />
+                        <p>Device Control Plus</p>
+                        <hr />
+                        <p>Application Control Plus</p>
+                        <hr />
+                        <p>Browser Security Plus</p>
+                        <hr />
+                        <p>Endpoint DLP Plus</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head4" onclick="main4()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        IT operations management
+                    </ul>
+                    <hr />
+                    <div id="subhead4">
+                        <p>OpManager Plus</p>
+                        <hr />
+                        <p>OpManager</p>
+                        <hr />
+                        <p>OpManager Enterprise</p>
+                        <hr />
+                        <p>NetFlow Analyzer</p>
+                        <hr />
+                        <p>Network Configuration Manager</p>
+                        <hr />
+                        <p>Firewall Analyzer</p>
+                        <hr />
+                        <p>OpUtils</p>
+                        <hr />
+                        <p>Applications Manager</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head5" onclick="main5()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Security information and event management
+                    </ul>
+                    <hr />
+                    <div id="subhead5">
+                        <p>Log360</p>
+                        <hr />
+                        <p>EventLog Analyzer</p>
+                        <hr />
+                        <p>SharePoint Manager Plus</p>
+                        <hr />
+                        <p>M365 Security Plus</p>
+                        <hr />
+                        <p>Cloud Security Plus</p>
+                        <hr />
+                        <p>DataSecurity Plus</p>
+                        <hr />
+                        <p>FileAnalysis</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head6" onclick="main6()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Advanced IT analytics
+                    </ul>
+                    <hr />
+                    <div id="subhead6">
+                        <p>Analytics Plus</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head7" onclick="main7()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Low-code app development
+                    </ul>
+                    <hr />
+                    <div id="subhead7">
+                        <p>AppCreator</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head8" onclick="main8()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        IT management for MSPs
+                    </ul>
+                    <hr />
+                    <div id="subhead8">
+                        <p>RMM Central</p>
+                        <hr />
+                        <p>ServiceDesk Plus MSP</p>
+                        <hr />
+                        <p>PAM360 MSP</p>
+                        <hr />
+                        <p>Password Manager Pro MSP</p>
+                        <hr />
+                        <p>Endpoint Central MSP</p>
+                        <hr />
+                        <p>Mobile Device Manager Plus MSP</p>
+                        <hr />
+                        <p>OpManager MSP</p>
+                        <hr />
+                        <p>ADManager Plus MSP</p>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <div id="rightDiv">
+                <div id="underline"></div>
+                <p id="ordersumhead">Billing Information</p>
+                <div id="sumbill">
+                    <p>Order Summary</p>
+                    <div>
+                        <p>Billing Information and Payment options</p>
+                    </div>
+                </div>
+                <div id="userInfo">
+                    <div>
+                        <p>Name <span>*</span></p>
+                        <p>Company Name <span>*</span></p>
+                        <p>Address <span>*</span></p>
+                        <p>City <span>*</span></p>
+                        <p>Country <span>*</span></p>
+                        <p>State / Province / Region <span>*</span></p>
+                        <p>ZIP / Postal Code <span>*</span></p>
+                        <p>Phone Number <span>*</span></p>
+                        <p>Fax Number <span>*</span></p>
+                    </div>
+                    <div>
+                        <input type="text" /><br />
+                        <input type="text" /><br />
+                        <input type="text" /><br />
+                        <input type="text" /><br />
+
+                        <select id="countries" name="country">
+                            <option value="">--Select Country--</option>
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Åland Islands">Åland Islands</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Algeria">Algeria</option>
+                            <option value="American Samoa">American Samoa</option>
+                            <option value="Andorra">Andorra</option>
+                            <option value="Angola">Angola</option>
+                            <option value="Anguilla">Anguilla</option>
+                            <option value="Antarctica">Antarctica</option>
+                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Armenia">Armenia</option>
+                            <option value="Aruba">Aruba</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Austria">Austria</option>
+                            <option value="Azerbaijan">Azerbaijan</option>
+                            <option value="Bahamas">Bahamas</option>
+                            <option value="Bahrain">Bahrain</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Barbados">Barbados</option>
+                            <option value="Belarus">Belarus</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Belize">Belize</option>
+                            <option value="Benin">Benin</option>
+                            <option value="Bermuda">Bermuda</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                            <option value="Botswana">Botswana</option>
+                            <option value="Bouvet Island">Bouvet Island</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                            <option value="Brunei Darussalam">Brunei Darussalam</option>
+                            <option value="Bulgaria">Bulgaria</option>
+                            <option value="Burkina Faso">Burkina Faso</option>
+                            <option value="Burundi">Burundi</option>
+                            <option value="Cambodia">Cambodia</option>
+                            <option value="Cameroon">Cameroon</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Cape Verde">Cape Verde</option>
+                            <option value="Cayman Islands">Cayman Islands</option>
+                            <option value="Central African Republic">Central African Republic</option>
+                            <option value="Chad">Chad</option>
+                            <option value="Chile">Chile</option>
+                            <option value="China">China</option>
+                            <option value="Christmas Island">Christmas Island</option>
+                            <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Comoros">Comoros</option>
+                            <option value="Congo">Congo</option>
+                            <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The
+                            </option>
+                            <option value="Cook Islands">Cook Islands</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Cote D'ivoire">Cote D'ivoire</option>
+                            <option value="Croatia">Croatia</option>
+                            <option value="Cuba">Cuba</option>
+                            <option value="Cyprus">Cyprus</option>
+                            <option value="Czech Republic">Czech Republic</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="Djibouti">Djibouti</option>
+                            <option value="Dominica">Dominica</option>
+                            <option value="Dominican Republic">Dominican Republic</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="El Salvador">El Salvador</option>
+                            <option value="Equatorial Guinea">Equatorial Guinea</option>
+                            <option value="Eritrea">Eritrea</option>
+                            <option value="Estonia">Estonia</option>
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                            <option value="Faroe Islands">Faroe Islands</option>
+                            <option value="Fiji">Fiji</option>
+                            <option value="Finland">Finland</option>
+                            <option value="France">France</option>
+                            <option value="French Guiana">French Guiana</option>
+                            <option value="French Polynesia">French Polynesia</option>
+                            <option value="French Southern Territories">French Southern Territories</option>
+                            <option value="Gabon">Gabon</option>
+                            <option value="Gambia">Gambia</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Gibraltar">Gibraltar</option>
+                            <option value="Greece">Greece</option>
+                            <option value="Greenland">Greenland</option>
+                            <option value="Grenada">Grenada</option>
+                            <option value="Guadeloupe">Guadeloupe</option>
+                            <option value="Guam">Guam</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="Guernsey">Guernsey</option>
+                            <option value="Guinea">Guinea</option>
+                            <option value="Guinea-bissau">Guinea-bissau</option>
+                            <option value="Guyana">Guyana</option>
+                            <option value="Haiti">Haiti</option>
+                            <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                            <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                            <option value="Honduras">Honduras</option>
+                            <option value="Hong Kong">Hong Kong</option>
+                            <option value="Hungary">Hungary</option>
+                            <option value="Iceland">Iceland</option>
+                            <option value="India">India</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                            <option value="Iraq">Iraq</option>
+                            <option value="Ireland">Ireland</option>
+                            <option value="Isle of Man">Isle of Man</option>
+                            <option value="Israel">Israel</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Jamaica">Jamaica</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Jersey">Jersey</option>
+                            <option value="Jordan">Jordan</option>
+                            <option value="Kazakhstan">Kazakhstan</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Kiribati">Kiribati</option>
+                            <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic
+                                of</option>
+                            <option value="Korea, Republic of">Korea, Republic of</option>
+                            <option value="Kuwait">Kuwait</option>
+                            <option value="Kyrgyzstan">Kyrgyzstan</option>
+                            <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                            <option value="Latvia">Latvia</option>
+                            <option value="Lebanon">Lebanon</option>
+                            <option value="Lesotho">Lesotho</option>
+                            <option value="Liberia">Liberia</option>
+                            <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                            <option value="Liechtenstein">Liechtenstein</option>
+                            <option value="Lithuania">Lithuania</option>
+                            <option value="Luxembourg">Luxembourg</option>
+                            <option value="Macao">Macao</option>
+                            <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav
+                                Republic of</option>
+                            <option value="Madagascar">Madagascar</option>
+                            <option value="Malawi">Malawi</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="Maldives">Maldives</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Malta">Malta</option>
+                            <option value="Marshall Islands">Marshall Islands</option>
+                            <option value="Martinique">Martinique</option>
+                            <option value="Mauritania">Mauritania</option>
+                            <option value="Mauritius">Mauritius</option>
+                            <option value="Mayotte">Mayotte</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                            <option value="Moldova, Republic of">Moldova, Republic of</option>
+                            <option value="Monaco">Monaco</option>
+                            <option value="Mongolia">Mongolia</option>
+                            <option value="Montenegro">Montenegro</option>
+                            <option value="Montserrat">Montserrat</option>
+                            <option value="Morocco">Morocco</option>
+                            <option value="Mozambique">Mozambique</option>
+                            <option value="Myanmar">Myanmar</option>
+                            <option value="Namibia">Namibia</option>
+                            <option value="Nauru">Nauru</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="Netherlands">Netherlands</option>
+                            <option value="Netherlands Antilles">Netherlands Antilles</option>
+                            <option value="New Caledonia">New Caledonia</option>
+                            <option value="New Zealand">New Zealand</option>
+                            <option value="Nicaragua">Nicaragua</option>
+                            <option value="Niger">Niger</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Niue">Niue</option>
+                            <option value="Norfolk Island">Norfolk Island</option>
+                            <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                            <option value="Norway">Norway</option>
+                            <option value="Oman">Oman</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Palau">Palau</option>
+                            <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                            <option value="Panama">Panama</option>
+                            <option value="Papua New Guinea">Papua New Guinea</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Pitcairn">Pitcairn</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="Puerto Rico">Puerto Rico</option>
+                            <option value="Qatar">Qatar</option>
+                            <option value="Reunion">Reunion</option>
+                            <option value="Romania">Romania</option>
+                            <option value="Russian Federation">Russian Federation</option>
+                            <option value="Rwanda">Rwanda</option>
+                            <option value="Saint Helena">Saint Helena</option>
+                            <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                            <option value="Saint Lucia">Saint Lucia</option>
+                            <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                            <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                            <option value="Samoa">Samoa</option>
+                            <option value="San Marino">San Marino</option>
+                            <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Serbia">Serbia</option>
+                            <option value="Seychelles">Seychelles</option>
+                            <option value="Sierra Leone">Sierra Leone</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Slovakia">Slovakia</option>
+                            <option value="Slovenia">Slovenia</option>
+                            <option value="Solomon Islands">Solomon Islands</option>
+                            <option value="Somalia">Somalia</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="South Georgia and The South Sandwich Islands">South Georgia and The South
+                                Sandwich Islands</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="Sudan">Sudan</option>
+                            <option value="Suriname">Suriname</option>
+                            <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                            <option value="Swaziland">Swaziland</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Switzerland">Switzerland</option>
+                            <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                            <option value="Taiwan">Taiwan</option>
+                            <option value="Tajikistan">Tajikistan</option>
+                            <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                            <option value="Thailand">Thailand</option>
+                            <option value="Timor-leste">Timor-leste</option>
+                            <option value="Togo">Togo</option>
+                            <option value="Tokelau">Tokelau</option>
+                            <option value="Tonga">Tonga</option>
+                            <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                            <option value="Tunisia">Tunisia</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Turkmenistan">Turkmenistan</option>
+                            <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                            <option value="Tuvalu">Tuvalu</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="United Arab Emirates">United Arab Emirates</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>
+                            <option value="United States Minor Outlying Islands">United States Minor Outlying Islands
+                            </option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Uzbekistan">Uzbekistan</option>
+                            <option value="Vanuatu">Vanuatu</option>
+                            <option value="Venezuela">Venezuela</option>
+                            <option value="Viet Nam">Viet Nam</option>
+                            <option value="Virgin Islands, British">Virgin Islands, British</option>
+                            <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                            <option value="Wallis and Futuna">Wallis and Futuna</option>
+                            <option value="Western Sahara">Western Sahara</option>
+                            <option value="Yemen">Yemen</option>
+                            <option value="Zambia">Zambia</option>
+                            <option value="Zimbabwe">Zimbabwe</option>
+                        </select>
+                        <input type="text" /><br />
+                        <input type="text" /><br />
+                        <input type="text" /><br />
+                        <input type="text" /><br />
+                    </div>
+                    <div>
+                        <div>Order Summary</div>
+                        <div>
+                            <p>Order Total</p>
+                            <p>USD $<span id="getprice2">345.00</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="underlineee"></div>
+                <p id="ordersumhead2">Card Details</p>
+                <div id="carddetailsDiv">
+                    <div>
+                        <p>Credit Card Number <span style="color: red">*</span></p>
+                        <p>Payment Type</p>
+                        <p>
+                            CSC (CVV2/CVC2) Number
+                            <span style="color: red">*</span>
+                        </p>
+                        <p>Expiration Date</p>
+                        <h2>Grand Total</h2>
+                    </div>
+                    <div style="position: relative; margin-bottom: 100px;">
+                        <input type="text" />
+                        <img id="payimg" src="https://img.zohostatic.com/zohostore/Jul_07_2022_8/images/pay-method.png"
+                            alt="" /><br />
+                        <input id="input01" type="text" /><br />
+                        <div id="monyear">
+                            <select name="month">
+                                <option value="01">Jan</option>
+                                <option value="02">Feb</option>
+                                <option value="03">Mar</option>
+                                <option value="04">Apr</option>
+                                <option value="05">May</option>
+                                <option value="06">June</option>
+                                <option value="07">July</option>
+                                <option value="08">Aug</option>
+                                <option value="09">Sept</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dec</option>
+                            </select>
+                            <select name="year">
+                                <option value="2030">2022</option>
+                                <option value="2029">2023</option>
+                                <option value="2028">2024</option>
+                                <option value="2027">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2025">2027</option>
+                                <option value="2024">2028</option>
+                                <option value="2023">2029</option>
+                                <option value="2022">2030</option>
+                                <option value="2021">2031</option>
+                                <option value="2020">2032</option>
+                                <option value="2019">2033</option>
+                                <option value="2018">2034</option>
+                                <option value="2017">2035</option>
+                                <option value="2016">2036</option>
+                                <option value="2015">2037</option>
+                                <option value="2014">2038</option>
+                                <option value="2013">2039</option>
+                                <option value="2012">2040</option>
+                                <option value="2011">2041</option>
+                            </select>
+                        </div>
+                        <h2 style="margin-top: 35px">USD $ <span id="getprice1">345.0</span></h2>
+                        <p style="margin-top: 28px">Your Credit Card Details are not stored. <span class="hover">See
+                                Zoho Privacy Policy</span></p>
+                        <br />
+                        <div style="display: flex; gap: 5px">
+                            <input type="checkbox" name="" id="paycheck1" onclick="checkCheckbox()" />
+                            <p style="font-size: 18px">I agree to the <span class="hover">Terms & Conditions</span></p>
+                        </div>
+                        <p style="margin-top: 30px; font-size: 19px; width: 80%">
+                            Note: All fields marked as (<span style="color: red">*</span>) are mandatory
+                        </p>
+                        <br />
+                        <button id="checkoutbutton">Pay and Checkout</button>
+                        <button id="checkoutbutton1">
+                            <a id="checking1" href="./paymentPage.html" style="color: white; text-decoration: none">Pay
+                                and Checkout</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <div id="no_body"></div> -->
+</body>
+
+
+</html>
+<script src="./script/billingPage.js"></script>
+<script src="./script/header.js" type="module"></script>

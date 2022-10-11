@@ -1,0 +1,467 @@
+@font-face {
+   font-family: "Zoho_Puvi_Regular";
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.eot);
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.eot) format("embedded-opentype"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.woff2) format("woff2"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.otf) format("opentype");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Zoho_Puvi_RegularItalic";
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.eot);
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.eot) format("embedded-opentype"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.woff2) format("woff2"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_regular.otf) format("opentype");
+   font-weight: 400;
+   font-style: oblique;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Zoho_Puvi_Medium";
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_medium.eot);
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_medium.eot) format("embedded-opentype"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_medium.woff2) format("woff2"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_medium.otf) format("opentype");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Zoho_Puvi_SemiBold";
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.eot);
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.eot) format("embedded-opentype"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.woff2) format("woff2"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.otf) format("opentype");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Zoho_Puvi_SemiBoldItalic";
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.eot);
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.eot) format("embedded-opentype"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.woff2) format("woff2"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_semibold.otf) format("opentype");
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Zoho_Puvi_Bold";
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_bold.eot);
+   src: url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_bold.eot) format("embedded-opentype"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_bold.woff2) format("woff2"),
+      url(https://fonts.zohostatic.com/zohopuvi/3.5/zoho_puvi_bold.otf) format("opentype");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Roboto Condensed";
+   font-weight: 400;
+   font-style: normal;
+   src: url(https://webfonts.zohostatic.com/robotocondensedregular/font.eot);
+   src: url(https://webfonts.zohostatic.com/robotocondensedregular/font.eot?#iefix) format("eot"),
+      url(https://webfonts.zohostatic.com/robotocondensedregular/font.woff2) format("woff2"),
+      url(https://webfonts.zohostatic.com/robotocondensedregular/font.woff) format("woff"),
+      url(https://webfonts.zohostatic.com/robotocondensedregular/font.ttf) format("truetype"),
+      url(https://webfonts.zohostatic.com/robotocondensedregular/font.svg#RobotoCondensed-Regular) format("svg");
+}
+
+body {
+   font-family: Zoho_Puvi_Regular;
+}
+
+#main_boxse {
+   /* height: 100vh; */
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   background-image: url(https://css.zohostatic.com/iam/M_5244165/v2/components/images/bg.svg);
+   background-repeat: no-repeat;
+}
+
+#login_container {
+   height: 540px;
+   width: 455px;
+   margin-left: 230px;
+   margin-top: 90px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   display: grid;
+}
+#boxes {
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   height: 540px;
+   width: 400px;
+   display: flex;
+   display: block;
+   margin-top: 90px;
+   /* padding-bottom: 30px; */
+}
+
+#slideshow > img {
+   width: 100%;
+   height: 100%;
+   transition: all 0.5s;
+
+   /* display: none; */
+}
+#pass_less {
+   font-weight: bold;
+   font-size: x-large;
+   text-align: center;
+}
+#move_less {
+   text-align: center;
+   color: gray;
+}
+#zoom {
+   height: 60px;
+   width: 330px;
+   margin-top: 30px;
+   margin-left: 20px;
+}
+
+#sets {
+   margin-top: 3px;
+   font-size: x-large;
+   margin-left: 40px;
+   margin-bottom: 0px;
+}
+
+#statement {
+   margin-left: 40px;
+   margin-top: 10px;
+}
+
+#email_buddy {
+   border: 4px solid rgb(244, 240, 237);
+   height: 40px;
+   width: 80%;
+
+   margin-left: 30px;
+   font-size: large;
+   margin-bottom: 5px;
+   background-color: rgb(244, 240, 237);
+   border-radius: 5px;
+}
+#email_pasa {
+   border: 4px solid rgb(244, 240, 237);
+   height: 40px;
+   width: 80%;
+   margin-left: 30px;
+   font-size: large;
+   margin-bottom: 5px;
+   background-color: rgb(244, 240, 237);
+   border-radius: 5px;
+}
+
+#login_button {
+   margin-top: 40px;
+   height: 45px;
+   width: 82%;
+   margin-top: 10px;
+   margin-left: 30px;
+   font-size: large;
+   border: 2px solid rgb(26, 126, 241);
+   background-color: rgb(26, 126, 241);
+   border-radius: 5px;
+   color: aliceblue;
+   font-size: x-large;
+   font-weight: bold;
+}
+
+#forgot {
+   margin-top: 50px;
+   height: 40px;
+   width: 82%;
+   margin-left: 30px;
+   margin-top: 20px;
+   font-size: large;
+   background-color: rgb(251, 251, 251);
+   color: rgb(26, 126, 241);
+   font-size: large;
+   font-weight: bold;
+   text-decoration: none;
+   border: 1px solid rgb(251, 251, 251);
+}
+
+#line {
+   border: 0.1px solid gray;
+   margin-left: 30px;
+   width: 80%;
+   background-color: rgb(243, 243, 243);
+}
+
+#sign_in_using {
+   font-size: larger;
+}
+
+#under_p {
+   margin-top: 10px;
+   margin-left: 30px;
+}
+
+#logee {
+   height: 50px;
+   width: 80%;
+   margin: auto;
+   margin-top: -30px;
+   display: grid;
+   justify-content: center;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 10px;
+}
+
+#logee > a > img {
+   border-radius: 7px;
+   width: 80%;
+   height: 70%;
+}
+
+/* ..............................enginsign.css......................... */
+
+#logo {
+   text-align: center;
+   margin-top: 70px;
+}
+
+#heat {
+   height: 100%;
+   width: 350px;
+   text-align: center;
+}
+
+#frame {
+   max-width: 420px;
+   width: 80%;
+   margin: auto;
+   padding: 30px 30px 0 30px;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 20px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   background-color: rgb(245, 246, 247);
+}
+
+#frame > input {
+   height: 40px;
+   background-color: transparent;
+   border-radius: 3px;
+   font-size: 20px;
+   padding: 0 10px;
+   border: 1px solid rgb(185, 184, 184);
+   outline: none;
+}
+#frame [type="submit"] {
+   width: fit-content;
+   padding: 5px 15px;
+   margin: auto;
+   background-color: green;
+   color: white;
+}
+
+.privacypara {
+   font-size: 0.8em;
+   margin-top: 20px;
+}
+
+#foot_copy {
+   text-align: center;
+   margin: 40px;
+}
+
+#body {
+   height: 100%;
+   width: 100%;
+   background-color: whitesmoke;
+}
+
+#icon {
+   height: auto;
+   width: 22px;
+   margin-right: 10px;
+}
+
+/*............................................. event.css.................................. */
+
+#event {
+   height: 140px;
+   width: 100%;
+   /* margin: auto; */
+   font-size: xx-large;
+   font-weight: bold;
+   background: url(https://www.manageengine.com/images/new-solutions-banner.jpg);
+   color: white;
+   text-align: center;
+}
+
+h1 {
+   padding-top: 30px;
+}
+
+#event_navigation {
+   height: 60px;
+   width: 100%;
+   text-align: center;
+   font-size: large;
+   font-weight: bold;
+   padding-bottom: 30px;
+}
+
+#event_navigation ul li #activeclasses {
+   border-bottom: 4px solid rgb(25, 60, 149);
+   border-bottom-width: 4px;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(25, 60, 149);
+   opacity: 1;
+}
+
+#event_navigation ul li {
+   font-size: 1.3em;
+   color: #193c95;
+   display: inline-block;
+   padding: 15px 20px 15px 20px;
+   position: relative;
+}
+
+#events {
+   margin-bottom: 30px;
+   width: 70%;
+   height: 40px;
+   display: flex;
+}
+
+#Selectbytypes {
+   background-color: white;
+   font-weight: bold;
+   text-align: center;
+   margin-left: 35px;
+   height: 100%;
+   width: 200px;
+   margin-left: 200px;
+   border-radius: 7px;
+}
+#Selectbydate {
+   display: none;
+}
+#Selectbydate {
+   background-color: white;
+   font-weight: bold;
+   text-align: center;
+   margin-left: 100px;
+   justify-content: end;
+   height: 100%;
+   width: 200px;
+   border-radius: 5px;
+}
+
+#Selectbydate:hover {
+   background-color: rgb(1, 1, 21);
+   color: white;
+}
+
+#Selectbytypes:hover {
+   background-color: rgb(1, 1, 21);
+   color: white;
+}
+
+#container {
+   gap: 20px;
+   width: 90%;
+   margin: auto;
+
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin-bottom: 30px;
+}
+
+#flex {
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+   margin-bottom: 10px;
+}
+
+#flex > img {
+   margin-top: 10px;
+   margin-left: 20px;
+   width: 200px;
+   height: 50px;
+}
+
+/* h2 {
+   font-size: medium;
+   margin-left: 10px;
+}
+
+p {
+   margin-left: 10px;
+   margin-bottom: 40px;
+} */
+
+#flex > h2 {
+   font-size: medium;
+   margin-left: 10px;
+}
+
+#flex > p {
+   margin-left: 10px;
+   margin-bottom: 40px;
+}
+#underline {
+   margin: auto;
+   width: 88%;
+
+   margin-top: 40px;
+}
+
+.resister {
+   height: 45px;
+   font-weight: 700;
+   margin-top: 30px;
+   text-align: center;
+   padding-top: 5px;
+   color: rgb(255, 179, 0);
+   font-size: large;
+}
+
+.resister:hover {
+   background-color: rgb(231, 210, 20);
+   color: whitesmoke;
+   font-size: large;
+}
+
+/*............................................... pasteevent.css ..................................*/
+
+#eventss {
+   margin-top: 200px;
+   height: 50px;
+
+   display: flex;
+   justify-content: end;
+}
+#Selectbytype {
+   background-color: white;
+   font-weight: bold;
+   text-align: center;
+   margin-left: 35px;
+
+   height: 100%;
+   width: 200px;
+
+   border-radius: 7px;
+}
+
+#Selectbytype:hover {
+   background-color: rgb(1, 1, 21);
+   color: white;
+}

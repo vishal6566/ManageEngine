@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ManageEngine-Log In</title>
+    <link rel="stylesheet" href="./style/account.css" />
+</head>
+
+<body>
+    <div id="main_boxse">
+        <div id="login_container">
+            <img id="zoom" src="https://www.manageengine.com/images/logo/manageengine-logo.svg" alt="" />
+            <div id="signin_head">
+                <h2 id="sets">Sign in</h2>
+                <p id="statement">to access ManageEngine</p>
+            </div>
+            <form id="email_address">
+                <input type="text" id="email_buddy" placeholder="Enter username" />
+                <input type="password" id="email_pasa" placeholder="Password" />
+                <input id="login_button" type="submit" value="Login" />
+                <button id="forgot">Forgot Password?</button>
+                <div id="line"></div>
+            </form>
+            <div id="sign_in_using">
+                <p id="under_p">Sign in using</p><br>
+                <div id="logee">
+                    <a
+                        href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=641273190747.apps.googleusercontent.com&scope=email%20profile&redirect_uri=https%3A%2F%2Faccounts.zoho.com%2Faccounts%2Foauthcallback&response_type=code&state=e841b5e70ec9de47dddd0c21b660f83379c545833bbea696ab5e1b1dadac65b4f3cc6223e3fea1147e041f07a23ed3494e126fba1dcbb17562892051cbbe92fc40d968a4d8153451093b8ccaebc19fbd48a64b436b1b25d9727390d30ddb25423fbab4cce7fd4425d6eaa656791bbbfa71a1427f6bc4f6a270ce122c6e0d7b7f08e741d9e7a2a646ccf9e59479436490&prompt=select_account&flowName=GeneralOAuthFlow">
+                        <img id="none"
+                            src="https://image.similarpng.com/very-thumbnail/2020/06/Logo-google-icon-PNG.png" alt="" />
+                    </a>
+                    <a href="">
+                        <img id="none" src="https://media.baamboozle.com/uploads/images/55449/1589908233_84755"
+                            alt="" />
+                    </a>
+                    <a href="">
+                        <img id="none" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" />
+                    </a>
+                    <a href="">
+                        <img id="none" src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
+                            alt="" />
+                    </a>
+                    <a href="">
+                        <img id="none" src="https://a.slack-edge.com/bv1-9/slack_logo-ebd02d1.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="boxes">
+            <div id="slideshow">
+                <img src="https://accounts.zoho.com/v2/components/images/mfa_illustration2x.png" alt="" />
+            </div>
+            <div id="medium_box2">
+                <h2 id="pass_less">Passwordless sign-in</h2>
+                <p id="move_less">
+                    Move away from risky passwords and <br />
+                    experience one-tap access to Download and install OneAuth.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    startSlideshow();
+
+
+    const logIn = async (event) => {
+        event.preventDefault();
+        let form = document.getElementById("email_address");
+        let loginData = {
+            username: form.email_buddy.value,
+            password: form.email_pasa.value,
+        };
+
+        try {
+            let loginAPIURL = `https://masai-api-mocker.herokuapp.com/auth/login`;
+            let res = await fetch(loginAPIURL, {
+                method: "POST",
+                body: JSON.stringify(loginData),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            });
+            let responce = await res.json();
+            alert("Login Successful");
+            localStorage.setItem("loginToken", JSON.stringify({ username: loginData.username, token: responce.token }));
+            window.location.href = "index.html"
+        } catch (error) {
+            alert("Authentication Failed");
+        }
+    };
+    document.querySelector("#email_address").addEventListener("submit", logIn);
+
+
+    // ==========================================Slidesow========================================
+
+    let i = 0;
+    function startSlideshow() {
+        let obj = [
+            "https://accounts.zoho.com/v2/components/images/passwordless_illustration2x.png",
+            "https://accounts.zoho.com/v2/components/images/recovery_illustration2x.png",
+            "https://accounts.zoho.com/v2/components/images/mfa_illustration2x.png",
+        ];
+        let sl = document.getElementById("slideshow");
+
+        let id = setInterval(function () {
+            if (i == obj.length) {
+                i = 0;
+            }
+
+            let image = document.createElement("img");
+            image.setAttribute("src", obj[i]);
+            sl.innerHTML = null;
+            sl.append(image);
+            i++;
+        }, 3000);
+    }
+</script>

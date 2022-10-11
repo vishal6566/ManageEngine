@@ -1,0 +1,157 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   color: rgb(51, 51, 51);
+}
+
+form {
+   border-bottom: 1px solid grey;
+   width: 65%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin: auto;
+   height: 550px;
+   padding: 30px;
+}
+
+form > div {
+   display: flex;
+   width: 55%;
+   justify-content: space-between;
+   margin: auto;
+   /* border: 1px solid fuchsia; */
+}
+
+input,
+select {
+   height: 40px;
+   padding-left: 10px;
+   border-radius: 3px;
+   border: 1px solid silver;
+   width: 55%;
+}
+
+form > p {
+   text-align: center;
+   font-size: 27px;
+   margin-bottom: 4%;
+   font-weight: bold;
+}
+
+form > div:nth-child(8) {
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+   margin-left: 48%;
+}
+
+#reset,
+#submit {
+   height: 40px;
+   width: 49%;
+   text-align: center;
+   /* padding: 5px; */
+   background: #069b4f;
+   font-size: 14px;
+   border-color: wheat;
+   color: white;
+   border-radius: 4px;
+}
+
+#reset {
+   background-color: #069b4e77;
+   color: gray;
+}
+
+form > div:nth-child(9) {
+   display: flex;
+   width: 31%;
+   margin-left: 46%;
+   font-size: 14px;
+}
+
+#aft-form {
+   /* border: 1px solid; */
+   width: 45%;
+   margin: auto;
+   display: flex;
+   margin-bottom: 5%;
+   border-bottom: 2px dashed gray;
+}
+
+#aft-form > span {
+   font-size: 60px;
+   margin-right: 3%;
+   color: rgb(51, 51, 51);
+}
+
+/* -------------> documents css <--------------- */
+
+#doc-sec > div {
+   width: 65%;
+   display: flex;
+   height: auto;
+   padding: 40px;
+   margin: auto;
+   border-bottom: 1px dashed black;
+}
+
+#administrator {
+   display: flex;
+   justify-content: center;
+   height: 400px;
+   padding-bottom: 20px;
+}
+
+#administrator > img {
+   height: 180px;
+   margin-right: 5%;
+   display: flex;
+   /* border: 1px red solid; */
+}
+
+#administrator > div > h3 {
+   font-size: 26px;
+}
+
+#administrator > div {
+   /* border: 1px solid; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 120px;
+}
+
+#links-div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* padding: 20px; */
+}
+
+#links-div > div {
+   display: flex;
+   /* border: 1px solid; */
+   width: 70%;
+   margin-top: 3%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#links-div > div > a > img {
+   height: 40px;
+}
+
+#links-div > h3 {
+   font-size: 28px;
+}
+
+#links-div > div > p {
+   font-size: 18px;
+}
+
+#links-div > div > img {
+   height: 250px;
+   width: 47%;
+}

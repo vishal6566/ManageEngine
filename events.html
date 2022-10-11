@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets\logo.png" type="image/x-icon" />
+    <title>ManageEngine-Events</title>
+    <link rel="stylesheet" href="./style/account.css">
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="mainHeader"></div>
+    <div id="event">
+        <h1> Events</h1>
+    </div>
+    <div id="event_navigation">
+        <ul>
+            <li id="activeclasses" onclick="activeclassesfun()" data-value="#p1" data-hrefurl="upcomingevents">
+                Upcoming Events
+            </li>
+            <li data-value="#p2" data-hrefurl="pasteevent" id="pasteevent" onclick="pasteeventfun()"> Past Events</li>
+            </li>
+        </ul>
+    </div>
+    <div id="events">
+        <select id="Selectbytypes">
+            <option value="Select by type"> Select by type</option>
+            <option value="all">All Events</option>
+            <option value="Webinars">Webinars</option>
+            <option value="On-demand Webinars">On-demand Webinars</option>
+            <option value="Online Workshops">Online Workshops</option>
+            <option value="Podcasts">Podcasts</option>
+            <option value="Virtual Events">Virtual Events</option>
+            <option value="Seminars">Seminars</option>
+            <option value="User conferences">User conferences</option>
+            <option value="Industry events">Industry events</option>
+        </select>
+        <select id="Selectbydate">
+            <option value="Select by Year"> Select by year</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+        </select>
+        <select id="Selectbytypes">
+            <option value="All region"> All region</option>
+            <option value="Asia Pacific">Asia Pacific</option>
+            <option value="Europe Middle East Africa">Europe Middle East Africa</option>
+            <option value="Latin America">Latin America</option>
+            <option value="North America">North America</option>
+
+        </select>
+        <select id="Selectbytypes">
+            <option value="Select by type"> Select by countries</option>
+            <option value="Canada">Canada</option>
+            <option value="florida">florida</option>
+            <option value="United States">United States</option>
+        </select>
+    </div>
+    <div id="container">
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/cso-infosec-summit-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/itech-large-2018-toronto-dt.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/tsc-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/forefront-events-logo.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/biap-logo.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/brightstar-logo.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/futurecon-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+
+                <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/images/me-logo-userconf.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/images/me-logo-userconf.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/mav-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/cybersecurity-asia-2022-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://tools.manageengine.com/images/common/aws-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/images/me-logo-itcon.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/biap-logo.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/futurecon-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/cybersecurity-asia-2022-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/images/me-logo-itcon.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://tools.manageengine.com/images/common/aws-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/forefront-events-logo.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/images/me-logo-itcon.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/images/me-logo-userconf.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/itech-large-2018-toronto-dt.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/me-online-seminar-logo.svg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="	https://www.manageengine.com/events/images/futurecon-logo.jpg" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+            <div class="resister">Resister now</div>
+        </div>
+        <div id="flex">
+            <img src="https://www.manageengine.com/events/images/itech-large-2018-toronto-dt.png" alt="">
+            <h2>
+                CSO's Future of cso-infoSec Summit
+            </h2>
+            <p>
+                July 19-20,2022
+
+            </p>
+            <hr id="underline">
+            <h2>
+                US
+            </h2>
+
+            <div class="resister">Resister now</div>
+        </div>
+    </div>
+    <div id="no_body"></div>
+
+</body>
+
+</html>
+<script src="./script/events.js"></script>
+<script src="./script/header.js" type="module"></script>

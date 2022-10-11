@@ -1,0 +1,113 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   color: rgb(51, 51, 51);
+}
+
+#quote-div {
+   /* border: 1px solid; */
+   margin: auto;
+   width: 95%;
+   padding-top: 3%;
+   border-bottom: 2px dashed gray;
+}
+
+#quote-div > div:first-child {
+   border: 1px solid rgba(192, 192, 192, 0.458);
+   padding: 10px;
+   width: 73.5%;
+   margin: auto;
+}
+
+#quote-disect {
+   display: flex;
+   width: 75%;
+   /* border: 1px solid; */
+   justify-content: space-around;
+   margin: auto;
+}
+
+#quote-disect > div {
+   border: 1px solid rgba(192, 192, 192, 0.405);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: 300px;
+   padding: 10px;
+   width: 100%;
+}
+
+input {
+   width: 15%;
+   border-radius: 2px;
+   border: 1px solid grey;
+   height: 30px;
+}
+
+#quote-disect > div > div {
+   /* border: 2px solid purple; */
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   margin: auto;
+}
+
+.q-head > span {
+   font-size: 12px;
+   margin-right: 64%;
+}
+
+.q-head {
+   display: flex;
+   align-items: center;
+}
+
+#quote-disect-2 {
+   width: 75%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-bottom: 20px;
+}
+#quote-disect-2 > div {
+   border: 1px solid rgba(192, 192, 192, 0.374);
+   display: flex;
+   justify-content: space-between;
+   padding: 25px;
+}
+
+#quote-disect-2 > div > input,
+select {
+   width: 60%;
+   height: 30px;
+   border-radius: 2px;
+   border: 1px solid grey;
+}
+
+.button-div {
+   display: flex;
+   /* width: 14%; */
+   padding-top: 1%;
+   padding-bottom: 5%;
+   background-color: white;
+   justify-content: center;
+}
+
+#reset {
+   background-color: rgba(128, 128, 128, 0.412);
+   color: rgb(112, 112, 112);
+   font-size: 14px;
+   padding: 10px 25px;
+   border: none;
+   /* font-weight: bold; */
+}
+
+#submit {
+   background-color: #02a55a;
+   color: #fff;
+   border: none;
+   padding: 10px 25px;
+   font-size: 14px;
+   margin-right: 1%;
+   /* font-weight: bold; */
+}

@@ -1,0 +1,307 @@
+.brandBanner {
+   height: 400px !important;
+   min-height: auto !important;
+   padding: 5vh 0;
+   overflow: hidden;
+   width: 100%;
+   background: url(https://www.manageengine.com/images/me20-line-img.svg) no-repeat;
+   background-size: contain;
+   background-color: #fee500;
+   position: relative;
+}
+.brandBanner > .ribbon {
+   position: absolute;
+   top: 0px;
+   right: 10px;
+   width: 500px;
+}
+.brandBanner > .image20 {
+   width: 200px;
+   height: auto;
+   position: absolute;
+   right: 200px;
+   top: 100px;
+}
+.brandBanner > .bannerContent {
+   position: absolute;
+   left: 10%;
+   top: 30%;
+   line-height: 2;
+}
+
+.brandBanner > .bannerContent > button {
+   display: inline-block;
+   color: #fff;
+   background: linear-gradient(to right, #0078b3, #015998);
+   padding: 11px 20px;
+   border-radius: 3px;
+   font-size: 14px;
+   font-family: "Zoho_Puvi_SemiBold";
+}
+.brandBanner > .bannerContent > button:hover {
+   background: linear-gradient(to right, #015998, #0078b3);
+}
+.headlines {
+   font-size: 16px;
+   display: block;
+   width: 70vw;
+   margin: 40px auto;
+   text-align: center;
+   color: #444;
+}
+.ProductList {
+   width: 80%;
+   margin: 50px auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 35px;
+   text-align: center;
+}
+.ProductList > .animate {
+   overflow: hidden;
+   line-height: 1.2;
+   padding: 35px 30px;
+   height: 250px;
+   transition: 0.8s;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.animate div > h3 {
+   font-size: 0.9em;
+   margin-top: 15px;
+}
+
+.animate div > h4 {
+   font-size: 0.8em;
+   margin-top: 30px;
+}
+.animate div > p {
+   margin-top: 50px;
+}
+
+.ProductList .animate:hover {
+   background: url(https://www.manageengine.com/images/list-bg.png) no-repeat;
+   background-size: cover;
+}
+.ProductList .animate:hover div {
+   margin-top: -140px;
+   transition: margin 0.6s;
+}
+
+/* Rohit and Vishal */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+#home-carousel {
+   /* border: 1px solid; */
+   margin-bottom: 3%;
+}
+
+#home-carousel > img {
+   width: 100%;
+   height: 350px;
+}
+
+/* h2 {
+   width: 50%;
+   font-size: 28px;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 3%;
+} */
+
+#organisation > div {
+   display: flex;
+   justify-content: space-between;
+   width: 87%;
+   margin: auto;
+   /* border: 2px slateblue solid; */
+}
+
+#organisation > div > div {
+   /* border: 1px solid; */
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#organisation > div > div > a {
+   text-decoration: none;
+   width: 70%;
+   text-align: center;
+   color: rgb(65, 64, 64);
+   font-weight: bold;
+}
+
+#org-2 > div > a {
+   text-decoration: none;
+   width: 70%;
+   text-align: center;
+   color: rgb(65, 64, 64);
+   /* font-weight: bold; */
+}
+
+#org-2 > div:nth-child(2) > a {
+   text-decoration: none;
+   width: 70%;
+   text-align: center;
+   color: white;
+   /* font-weight: bold; */
+}
+
+#organisation > div > div:nth-child(2) {
+   padding-left: 20px;
+   padding-right: 20px;
+   width: 25%;
+}
+#organisation > div > div:nth-child(2) > img {
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-bottom: 5%;
+   width: 60%;
+}
+
+#organisation > div > div:nth-child(3) {
+   padding-left: 20px;
+   padding-right: 20px;
+   width: 25%;
+}
+
+#organisation > div > div:nth-child(3) > img {
+   width: 60%;
+   margin-bottom: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+/* ---- */
+#org-2 {
+   display: flex;
+   justify-content: space-between;
+   width: 87%;
+   margin: auto;
+   /* border: 2px slateblue solid;  */
+}
+
+#org-2 > div:nth-child(2) {
+   padding-left: 20px;
+   padding-right: 20px;
+   width: 25%;
+   background-color: #022f5d;
+}
+
+#org-2 > div:nth-child(1) {
+   padding-left: 20px;
+   padding-right: 20px;
+   width: 25%;
+}
+
+#org-2 > div:nth-child(1) > img {
+   width: 60%;
+   margin-bottom: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+#org-2 > div {
+   /* border: 1px solid; */
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#companies {
+   display: flex;
+   width: 65%;
+   margin: auto;
+   padding: 20px;
+   justify-content: space-between;
+}
+#companies > img {
+   height: 50px;
+   width: 8%;
+}
+
+#companies > img:nth-child(3) {
+   height: 30px;
+   margin-top: 1%;
+}
+
+#ask {
+   height: 360px;
+   width: 100%;
+   color: white;
+   padding-top: 20px;
+   margin: auto;
+   text-align: center;
+   position: absolute;
+   background: linear-gradient(to bottom, #293855 0, #0f111e 60%, #0c0b1b 100%);
+}
+
+.ask-div {
+   display: flex;
+   /* border: 1px solid white; */
+   width: 70%;
+   margin: auto;
+   height: 140px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.ask-div > div > span {
+   font-size: 70px;
+   color: rgb(0, 191, 255);
+}
+
+.ask-div > div > p {
+   color: white;
+   font-size: 18px;
+}
+
+#ask > h2 {
+   font-size: 45px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 + p {
+   margin-top: -1.5%;
+   margin-bottom: 4%;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#bottomDiv1 {
+   border: 1px solid transparent;
+   height: 560px;
+   background-color: rgb(244, 244, 244);
+   margin-top: 380px;
+}
+#bottomDiv1 > div:first-child {
+   height: 380px;
+   width: 80%;
+   margin: auto;
+   background-color: white;
+   display: flex;
+}
+#bottomDiv1 > div > div:first-child {
+   border-right: 1px solid rgb(244, 244, 244);
+   height: 100%;
+   width: 50%;
+}
+#bottomDiv1 > div > div:last-child {
+   height: 100%;
+   width: 50%;
+}
+#bottomDiv2 {
+   border: 1px solid transparent;
+   height: 90px;
+}
+
+/* li {
+   margin-top: 7px;
+} */

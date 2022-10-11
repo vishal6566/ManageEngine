@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paste_Event</title>
+    <link rel="stylesheet" href="./style/account.css">
+    <style>
+    
+    </style>
+</head>
+<body>
+     <div id="eventss">
+        <select id="Selectbytype">
+            <option value="Select by type"> Select by type</option>
+            <option value="all">All Events</option>
+            <option value="Webinars">Webinars</option>
+            <option value="On-demand Webinars">On-demand Webinars</option>
+            <option value="Online Workshops">Online Workshops</option>
+            <option value="Podcasts">Podcasts</option>
+            <option value="Virtual Events">Virtual Events</option>
+            <option value="Seminars">Seminars</option>
+            <option value="User conferences">User conferences</option>
+            <option value="Industry events">Industry events</option>
+        </select>
+        <select id="Selectbytype">
+            <option value="Select by Year"> Select by year</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+        </select>
+        <select id="Selectbytype">
+            <option value="All region"> All region</option>
+            <option value="Asia Pacific">Asia Pacific</option>
+            <option value="Europe Middle East Africa">Europe Middle East Africa</option>
+            <option value="Latin America">Latin America</option>
+            <option value="North America">North America</option>
+            
+        </select>
+        <select id="Selectbytype">
+            <option value="Select by type"> Select by countries</option>
+            <option value="Canada">Canada</option>
+            <option value="florida">florida</option>
+            <option value="United States">United States</option>
+        </select>
+    </div>
+</body>
+</html>

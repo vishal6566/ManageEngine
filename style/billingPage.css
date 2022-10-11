@@ -1,0 +1,462 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+#ospNav {
+   background-color: #142357;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+#subosp1 {
+   width: 20%;
+   margin-left: 100px;
+   display: flex;
+   gap: 20px;
+}
+#subosp2 {
+   width: 28%;
+
+   display: flex;
+   gap: 20px;
+}
+#subosp1 > h2 {
+   font-size: 35px;
+   margin: 10px 0px;
+}
+#subosp1 > p {
+   margin-top: 25px;
+}
+#subosp2 > button {
+   color: white;
+   background-color: rgb(223, 77, 57);
+   font-size: 18px;
+   margin: 3px 0px;
+   padding: 0px 15px;
+   border-radius: 5px;
+   border: none;
+   margin-left: 100px;
+}
+#subosp2 > div {
+   display: flex;
+   gap: 5px;
+}
+#subosp2 > div > img {
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+}
+#subosp2 > div > h2 {
+   color: #e9a40e;
+   font-size: 25px;
+   margin-top: 15px;
+   margin-right: 20x;
+}
+#partnerss:hover {
+   cursor: pointer;
+}
+#csbtn:hover {
+   cursor: pointer;
+}
+#divOuter {
+   width: 70%;
+   height: 500px;
+   margin: auto;
+   display: flex;
+   gap: 50px;
+}
+#leftDiv {
+   border-right: 1px solid rgb(231, 226, 226);
+   width: 25%;
+   margin-top: 35px;
+}
+#rightDiv {
+   width: 75%;
+}
+#head1 {
+   color: #777777;
+   font-size: 23px;
+   font-weight: 300;
+   margin-top: 30px;
+   margin: 15px 0px;
+}
+#head1:hover {
+   cursor: pointer;
+}
+#subhead1 {
+   display: none;
+   color: #777777;
+
+   font-weight: 300;
+}
+#subhead1 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead1 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head2 {
+   color: #777777;
+   font-size: 22px;
+   font-weight: 300;
+
+   margin: 15px 0px;
+}
+#head2:hover {
+   cursor: pointer;
+}
+#subhead2 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+
+#subhead2 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead2 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head3 {
+   color: #777777;
+   font-size: 22px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head3:hover {
+   cursor: pointer;
+}
+#subhead3 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead3 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead3 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head4 {
+   color: #777777;
+   font-size: 22px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head4:hover {
+   cursor: pointer;
+}
+#subhead4 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead4 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead4 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head5 {
+   color: #777777;
+   font-size: 22px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head5:hover {
+   cursor: pointer;
+}
+#subhead5 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead5 > p {
+   padding-left: 50px;
+}
+#subhead5 > p:hover {
+   color: blue;
+   cursor: pointer;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#head6 {
+   color: #777777;
+   font-size: 22px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head6:hover {
+   cursor: pointer;
+}
+#subhead6 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead6 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead6 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head7 {
+   color: #777777;
+   font-size: 22px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head7:hover {
+   cursor: pointer;
+}
+#subhead7 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead7 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead7 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#head8 {
+   color: #777777;
+   font-size: 22px;
+   font-weight: 300;
+   margin: 15px 0px;
+}
+#head8:hover {
+   cursor: pointer;
+}
+#subhead8 {
+   display: none;
+   color: #777777;
+   font-size: 19px;
+   font-weight: 300;
+}
+#subhead8 > p {
+   padding-left: 50px;
+   font-size: 18px;
+   margin: 10px 0px;
+}
+#subhead8 > p:hover {
+   color: blue;
+   cursor: pointer;
+}
+#underline {
+   border: 1px solid #ebeaea;
+   height: 3px;
+   margin-top: 40px;
+}
+#ordersumhead {
+   font-size: 34px;
+   margin-top: 20px;
+}
+#sumbill {
+   height: 45px;
+   display: flex;
+   background-color: #c4c4c4;
+   margin-top: 25px;
+   color: white;
+   border-radius: 20px;
+   width: 85%;
+   justify-content: space-between;
+}
+#sumbill > div {
+   background-color: #7bbb29;
+   width: 65%;
+   border-radius: 20px;
+   border-left: 3px solid white;
+}
+#sumbill > div > p {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+#sumbill > p {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bolder;
+   margin-top: 10px;
+   margin-left: 60px;
+}
+#userInfo {
+   display: flex;
+
+   margin-top: 17px;
+}
+#userInfo > div:nth-child(1) {
+   margin-top: 10px;
+   width: 29%;
+}
+#userInfo > div:nth-child(2) {
+   width: 38%;
+   margin-top: 10px;
+}
+#userInfo > div:nth-child(3) {
+   width: 29%;
+}
+#userInfo > div:nth-child(1) > p > span {
+   color: rgb(252, 70, 70);
+}
+#userInfo > div:nth-child(1) > p {
+   margin-bottom: 40px;
+   margin-left: 17px;
+   font-weight: lighter;
+}
+#userInfo > div:nth-child(2) > input {
+   width: 90%;
+   margin-bottom: 32px;
+   border: 1px solid gray;
+   height: 25px;
+}
+#countries {
+   border: 1px solid gray;
+   width: 90%;
+   height: 27px;
+   margin-bottom: 32px;
+}
+#userInfo > div:nth-child(3) > div:first-child {
+   width: 80%;
+   height: 35px;
+   border-radius: 10px;
+   font-size: 18px;
+   background-color: #c4c4c4;
+   color: white;
+   font-weight: bolder;
+   padding-left: 40px;
+   padding-top: 6px;
+}
+#userInfo > div:nth-child(3) > div:last-child {
+   border: 1px solid #c4c4c4;
+   width: 80%;
+   height: 100px;
+   font-size: 20px;
+   font-weight: bolder;
+   border-radius: 5px;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* border: 1px solid red; */
+}
+
+#userInfo > div:nth-child(3) > div:last-child > p:last-child {
+   margin-top: 10px;
+}
+
+#underlineee {
+   border: 1px solid#e6e3e3;
+   width: 48%;
+   margin-left: 80px;
+   margin-top: 60px;
+}
+#ordersumhead2 {
+   font-size: 34px;
+   margin-top: 34px;
+}
+#carddetailsDiv {
+   width: 70%;
+   margin-top: 15px;
+   display: flex;
+}
+#carddetailsDiv > div:first-child {
+   width: 40%;
+   margin-left: 20px;
+}
+#carddetailsDiv > div:last-child {
+   width: 56%;
+}
+#carddetailsDiv > div:first-child > p {
+   font-size: 17px;
+   margin-top: 25px;
+}
+#carddetailsDiv > div:first-child > h2 {
+   font-size: 27px;
+   margin-top: 35px;
+}
+#carddetailsDiv > div:last-child > input:first-child {
+   width: 90%;
+   margin-top: 18px;
+   border: 1px solid gray;
+   height: 25px;
+}
+#payimg {
+   width: 40%;
+   height: 25px;
+   margin-top: 20px;
+}
+#input01 {
+   width: 90%;
+   margin-top: 18px;
+   border: 1px solid gray;
+   height: 25px;
+}
+#monyear {
+   margin-top: 20px;
+
+   height: 28px;
+}
+#monyear > select {
+   height: 25px;
+   border: 1px solid gray;
+}
+.hover {
+   color: rgb(56, 56, 246);
+}
+.hover:hover {
+   cursor: pointer;
+   text-decoration: underline;
+   color: rgb(56, 56, 246);
+}
+#checkoutbutton {
+   background-color: #aad956;
+   color: white;
+   border-radius: 10px;
+   font-size: 21px;
+   width: fit-content;
+   padding: 10px 20px;
+   margin: 35px 0px;
+}
+#checkoutbutton1 {
+   background-color: #aad956;
+   color: white;
+   border-radius: 10px;
+   font-size: 21px;
+   position: absolute;
+   display: none;
+   width: fit-content;
+   padding: 10px 20px;
+   margin: 35px 0px;
+}
+#checkoutbutton1:hover {
+   cursor: pointer;
+}

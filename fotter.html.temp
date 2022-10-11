@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Page </title>
+    <style>
+         #no_body{
+            
+            width: 100%;
+            height: 370px;
+          
+            display: flex;
+            margin-top: 220px;
+            margin-bottom: 10px;
+            border-top: 1px solid #444;
+          
+            background: #222;
+         }
+         #under_box{
+            /* border: 1px solid rgb(245, 29, 1); */
+            height: 100%;
+            width: 40%;
+            border-right: 1px solid #292929;
+
+         }
+              #foot_head{
+                color: white;
+                font-size: x-large ;
+                margin-top: 35px;
+                margin-left: 60px;
+              }
+              #foot_count{
+                color: white;
+                /* border: 1px solid green; */
+              }
+              #reni{
+                color: white;
+                font-size: x-large ;
+                margin-top: 35px;
+                margin-left: 40px;
+              }
+              #rigional{
+                margin-top: 25px;
+              }
+              #letter{
+                color: white;
+                font-size: xx-large ;
+                margin-top: 25px;
+                margin-left: 40px;
+              }
+              #jiyo{
+                color: #bbb;
+                margin-top: 6px;
+                margin-left: 40px;
+
+
+              }
+              #newro{
+                /* border: 1px solid white; */
+                height: 40px;
+                width: 280px;
+                margin-top: 20px;
+                margin-left: 40px;
+
+              }
+              #follow{
+                color: white;
+                font-size: x-large ;
+                margin-top: 35px;
+                margin-left: 40px;
+              }
+              
+         #under_line{
+            /* border: 1px solid rgb(70, 6, 247); */
+            height: 100%;
+            width: 40%;
+            border-right: 1px solid #292929;
+
+         }
+         #under_long{
+            /* border: 1px solid rgb(226, 7, 149); */
+            height: 100%;
+            width: 40%;
+            border-right: 1px solid #292929;
+
+         }
+
+
+         #foot_line{
+            text-align: center;
+         }
+        
+    
+         #Selectbytypes{
+            width: 65%;
+            height: 40px;
+            margin-left: 40px;
+            /* overflow: scroll; */
+         }
+         #hero{
+                 height: 45px;
+                 width: 75%;
+                 /* border: 1px solid rgb(52, 11, 237); */
+                 margin-top: 25px;
+                margin-left: 40px;
+                gap: 20px;
+                 display: flex;
+
+         }
+         #gudo{
+
+            /* border: 1px solid hotpink; */
+            background: #222;
+            height: 100%;
+            width: 20%;
+         }
+         #gudo>img{
+            height: 104%;
+            width: 100%;
+            border-radius:8px  ;
+            /* background-color: black; */
+            background: #222;
+
+         }
+         #division{
+            color: #bbb;
+            margin-top: 40px;
+            margin-left: 40px;
+         }
+         #zoho{
+            height:  20px;
+            width: 60px;
+
+         }
+         #tere_bina>ul>li{
+            list-style: none;
+            gap: 10px;
+         }
+         #tere_bina>ul>li>a{
+            text-decoration: none;
+           color: #bbb;
+            gap: 10px;
+            padding: 20px;
+         }
+         #kahan_jaye>ul>li{
+            list-style: none;
+         }
+         #kahan_jaye>ul>li>a{
+            text-decoration: none;
+            color: #bbb;
+         }
+         #usko{
+            /* border: 3px solid darkred; */
+            height: 80%;
+            display: flex;
+         }
+         #tere_bina{
+            /* border: 2px solid rgb(70, 6, 247); */
+            width: 50%;
+         }
+         #kahan_jaye{
+            /* border: 2px solid rgb(247, 6, 110); */
+            width: 50%;
+         }
+         
+         li{
+            margin-top: 7px;
+         }
+        
+         
+    </style>
+</head>
+<body>
+    <div id="no_body">
+        <div id="under_box">
+           <div id="foot_head">Company</div>
+           <div id="usko">
+            <div id="tere_bina">
+                <ul>
+                    <li>
+                        <a href="https://www.manageengine.com/company.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="About Us">About us</a>
+                    </li>
+                    <li >
+                        <a href="https://www.manageengine.com/news/?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="News">News</a>
+                    </li>
+                    <li>
+                        <a href="https://www.manageengine.com/events.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter"
+                         title="Events">Events</a>
+                    </li>
+                    <li>
+                        <a href="https://www.manageengine.com/customers.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="Customers">Customers</a>
+                    </li>
+                    <li>
+                        <a href="https://pitstop.manageengine.com/" title="PitStop" target="_blank">PitStop</a>
+                    </li>
+                    <li>
+                        <a href="https://partners.manageengine.com/?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="Partner portal" target="_blank">Partner portal</a>
+                    </li>
+                    <li>
+                        <a href="https://www.manageengine.com/affiliate.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="Affiliate">Affiliate</a>
+                    </li>
+                    <li>
+                        <a href="https://gov.manageengine.com/?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="Government" target="_blank">Government</a>
+                    </li>
+                    
+                       
+                    <li><a href="https://www.manageengine.com/newsletter.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter"
+                             title="Newsletter">Newsletter</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.manageengine.com/privacy/cookie-policy.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="Cookie policy">Cookie policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="kahan_jaye">
+                <ul>
+                    <li>
+                        <a href="https://www.manageengine.com/careers.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="Careers">Careers</a>
+                    </li>
+                    <li><a href="https://www.manageengine.com/sitemap.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter"
+                         title="Site map" id="smaplnk">Site map</a>
+                    </li>
+                    <li>
+                        <a href="https://www.manageengine.com/trademarks.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter"
+                         title="Trademarks">Trademarks</a>
+                    </li>
+                    <li>
+                        <a href="https://www.manageengine.com/eula.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter"
+                         title="EULA">EULA</a>
+                    </li>
+                    <li>
+                        <a href="https://www.manageengine.com/contact.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter" 
+                        title="Contact us">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="https://www.manageengine.com/feedback.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter"
+                         title="Feedback" data-footerfeedback="8ee519dc7cc182b6160e37b0e229b864">Feedback</a>
+                    </li>
+                    <li>
+                        <a title="Privacy Policy" 
+                        href="https://www.manageengine.com/privacy.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter">Privacy policy</a>
+                    </li>
+                    <li>
+                        <a title="Security"
+                         href="https://www.manageengine.com/security.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter">Security</a>
+                    </li>
+                    <li>
+                        <a title="Security response center" 
+                        href="https://www.manageengine.com/manageengine-security-response-center.html?pos=MEhome&amp;loc=PageBot&amp;cat=mefooter">Security response center</a>
+                    </li>
+                </ul>
+            </div>
+           </div>
+        
+        </div>
+        <div id="under_line">
+            <div id="reni">Regional Websites</div>
+            <div id="rigional" >
+                   <select id="Selectbytypes" name="Selectbytypes">
+                    <option  > Global(English)</option>  
+                    <option value="AF">Afghanistan</option>
+                    <option value="AX">Aland Islands</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AO">Angola</option>
+                    <option value="AI">Anguilla</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="AG">Antigua and Barbuda</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AW">Aruba</option>
+                    <option value="AU">Australia</option>
+                    <option value="AT">Austria</option>
+                    <option value="AZ">Azerbaijan</option>
+                    <option value="BS">Bahamas</option>
+                    <option value="BH">Bahrain</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="BB">Barbados</option>
+                    <option value="BY">Belarus</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BZ">Belize</option>
+                    <option value="BJ">Benin</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="BT">Bhutan</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                    <option value="BA">Bosnia and Herzegovina</option>
+                    <option value="BW">Botswana</option>
+                    <option value="BV">Bouvet Island</option>
+                    <option value="BR">Brazil</option>
+                    <option value="IO">British Indian Ocean Territory</option>
+                    <option value="BN">Brunei Darussalam</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="BF">Burkina Faso</option>
+                    <option value="BI">Burundi</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="CA">Canada</option>
+                    <option value="CV">Cape Verde</option>
+                    <option value="KY">Cayman Islands</option>
+                    <option value="CF">Central African Republic</option>
+                    <option value="TD">Chad</option>
+                    <option value="CL">Chile</option>
+                    <option value="CN">China</option>
+                    <option value="CX">Christmas Island</option>
+                    <option value="CC">Cocos (Keeling) Islands</option>
+                    <option value="CO">Colombia</option>
+                    <option value="KM">Comoros</option>
+                    <option value="CG">Congo</option>
+                    <option value="CD">Congo, Democratic Republic of the Congo</option>
+                    <option value="CK">Cook Islands</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="CI">Cote D'Ivoire</option>
+                    <option value="HR">Croatia</option>
+                    <option value="CU">Cuba</option>
+                    <option value="CW">Curacao</option>
+                    <option value="CY">Cyprus</option>
+                    <option value="CZ">Czech Republic</option>
+                    <option value="DK">Denmark</option>
+                    <option value="DJ">Djibouti</option>
+                    <option value="DM">Dominica</option>
+                    <option value="DO">Dominican Republic</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="EG">Egypt</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="GQ">Equatorial Guinea</option>
+                    <option value="ER">Eritrea</option>
+                    <option value="EE">Estonia</option>
+                    <option value="ET">Ethiopia</option>
+                    <option value="FK">Falkland Islands (Malvinas)</option>
+                    <option value="FO">Faroe Islands</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finland</option>
+                    <option value="FR">France</option>
+                    <option value="GF">French Guiana</option>
+                    <option value="PF">French Polynesia</option>
+                    <option value="TF">French Southern Territories</option>
+                    <option value="GA">Gabon</option>
+                    <option value="GM">Gambia</option>
+                    <option value="GE">Georgia</option>
+                    <option value="DE">Germany</option>
+                    <option value="GH">Ghana</option>
+                    <option value="GI">Gibraltar</option>
+                    <option value="GR">Greece</option>
+                    <option value="GL">Greenland</option>
+                    <option value="GD">Grenada</option>
+                    <option value="GP">Guadeloupe</option>
+                    <option value="GU">Guam</option>
+                    <option value="GT">Guatemala</option>
+                    <option value="GG">Guernsey</option>
+                    <option value="GN">Guinea</option>
+                    <option value="GW">Guinea-Bissau</option>
+                    <option value="GY">Guyana</option>
+                    <option value="HT">Haiti</option>
+                    <option value="HM">Heard Island and Mcdonald Islands</option>
+                    <option value="VA">Holy See (Vatican City State)</option>
+                    <option value="HN">Honduras</option>
+                    <option value="HK">Hong Kong</option>
+                    <option value="HU">Hungary</option>
+                    <option value="IS">Iceland</option>
+                    <option value="IN">India</option>
+                    <option value="ID">Indonesia</option>
+                    <option value="IR">Iran, Islamic Republic of</option>
+                    <option value="IQ">Iraq</option>
+                    <option value="IE">Ireland</option>
+                    <option value="IM">Isle of Man</option>
+                    <option value="IL">Israel</option>
+                    <option value="IT">Italy</option>
+                    <option value="JM">Jamaica</option>
+                    <option value="JP">Japan</option>
+                    <option value="JE">Jersey</option>
+                    <option value="JO">Jordan</option>
+                    <option value="KZ">Kazakhstan</option>
+                    <option value="KE">Kenya</option>
+                    <option value="KI">Kiribati</option>
+                    <option value="KP">Korea, Democratic People's Republic of</option>
+                    <option value="KR">Korea, Republic of</option>
+                    <option value="XK">Kosovo</option>
+                    <option value="KW">Kuwait</option>
+                    <option value="KG">Kyrgyzstan</option>
+                    <option value="LA">Lao People's Democratic Republic</option>
+                    <option value="LV">Latvia</option>
+                    <option value="LB">Lebanon</option>
+                    <option value="LS">Lesotho</option>
+                    <option value="LR">Liberia</option>
+                    <option value="LY">Libyan Arab Jamahiriya</option>
+                    <option value="LI">Liechtenstein</option>
+                    <option value="LT">Lithuania</option>
+                    <option value="LU">Luxembourg</option>
+                    <option value="MO">Macao</option>
+                    <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                    <option value="MG">Madagascar</option>
+                    <option value="MW">Malawi</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="MV">Maldives</option>
+                    <option value="ML">Mali</option>
+                    <option value="MT">Malta</option>
+                    <option value="MH">Marshall Islands</option>
+                    <option value="MQ">Martinique</option>
+                    <option value="MR">Mauritania</option>
+                    <option value="MU">Mauritius</option>
+                    <option value="YT">Mayotte</option>
+                    <option value="MX">Mexico</option>
+                    <option value="FM">Micronesia, Federated States of</option>
+                    <option value="MD">Moldova, Republic of</option>
+                    <option value="MC">Monaco</option>
+                    <option value="MN">Mongolia</option>
+                    <option value="ME">Montenegro</option>
+                    <option value="MS">Montserrat</option>
+                    <option value="MA">Morocco</option>
+                    <option value="MZ">Mozambique</option>
+                    <option value="MM">Myanmar</option>
+                    <option value="NA">Namibia</option>
+                    <option value="NR">Nauru</option>
+                    <option value="NP">Nepal</option>
+                    <option value="NL">Netherlands</option>
+                    <option value="AN">Netherlands Antilles</option>
+                    <option value="NC">New Caledonia</option>
+                    <option value="NZ">New Zealand</option>
+                    <option value="NI">Nicaragua</option>
+                    <option value="NE">Niger</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="NU">Niue</option>
+                    <option value="NF">Norfolk Island</option>
+                    <option value="MP">Northern Mariana Islands</option>
+                    <option value="NO">Norway</option>
+                    <option value="OM">Oman</option>
+                    <option value="PK">Pakistan</option>
+                    <option value="PW">Palau</option>
+                    <option value="PS">Palestinian Territory, Occupied</option>
+                    <option value="PA">Panama</option>
+                    <option value="PG">Papua New Guinea</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="PE">Peru</option>
+                    <option value="PH">Philippines</option>
+                    <option value="PN">Pitcairn</option>
+                    <option value="PL">Poland</option>
+                    <option value="PT">Portugal</option>
+                    <option value="PR">Puerto Rico</option>
+                    <option value="QA">Qatar</option>
+                    <option value="RE">Reunion</option>
+                    <option value="RO">Romania</option>
+                    <option value="RU">Russian Federation</option>
+                    <option value="RW">Rwanda</option>
+                    <option value="BL">Saint Barthelemy</option>
+                    <option value="SH">Saint Helena</option>
+                    <option value="KN">Saint Kitts and Nevis</option>
+                    <option value="LC">Saint Lucia</option>
+                    <option value="MF">Saint Martin</option>
+                    <option value="PM">Saint Pierre and Miquelon</option>
+                    <option value="VC">Saint Vincent and the Grenadines</option>
+                    <option value="WS">Samoa</option>
+                    <option value="SM">San Marino</option>
+                    <option value="ST">Sao Tome and Principe</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="SN">Senegal</option>
+                    <option value="RS">Serbia</option>
+                    <option value="CS">Serbia and Montenegro</option>
+                    <option value="SC">Seychelles</option>
+                    <option value="SL">Sierra Leone</option>
+                    <option value="SG">Singapore</option>
+                    <option value="SX">Sint Maarten</option>
+                    <option value="SK">Slovakia</option>
+                    <option value="SI">Slovenia</option>
+                    <option value="SB">Solomon Islands</option>
+                    <option value="SO">Somalia</option>
+                    <option value="ZA">South Africa</option>
+                    <option value="GS">South Georgia and the South Sandwich Islands</option>
+                    <option value="SS">South Sudan</option>
+                    <option value="ES">Spain</option>
+                    <option value="LK">Sri Lanka</option>
+                    <option value="SD">Sudan</option>
+                    <option value="SR">Suriname</option>
+                    <option value="SJ">Svalbard and Jan Mayen</option>
+                    <option value="SZ">Swaziland</option>
+                    <option value="SE">Sweden</option>
+                    <option value="CH">Switzerland</option>
+                    <option value="SY">Syrian Arab Republic</option>
+                    <option value="TW">Taiwan, Province of China</option>
+                    <option value="TJ">Tajikistan</option>
+                    <option value="TZ">Tanzania, United Republic of</option>
+                    <option value="TH">Thailand</option>
+                    <option value="TL">Timor-Leste</option>
+                    <option value="TG">Togo</option>
+                    <option value="TK">Tokelau</option>
+                    <option value="TO">Tonga</option>
+                    <option value="TT">Trinidad and Tobago</option>
+                    <option value="TN">Tunisia</option>
+                    <option value="TR">Turkey</option>
+                    <option value="TM">Turkmenistan</option>
+                    <option value="TC">Turks and Caicos Islands</option>
+                    <option value="TV">Tuvalu</option>
+                    <option value="UG">Uganda</option>
+                    <option value="UA">Ukraine</option>
+                    <option value="AE">United Arab Emirates</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="US">United States</option>
+                    <option value="UM">United States Minor Outlying Islands</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="UZ">Uzbekistan</option>
+                    <option value="VU">Vanuatu</option>
+                    <option value="VE">Venezuela</option>
+                    <option value="VN">Viet Nam</option>
+                    <option value="VG">Virgin Islands, British</option>
+                    <option value="VI">Virgin Islands, U.s.</option>
+                    <option value="WF">Wallis and Futuna</option>
+                    <option value="EH">Western Sahara</option>
+                    <option value="YE">Yemen</option>
+                    <option value="ZM">Zambia</option>
+                    <option value="ZW">Zimbabwe</option>
+        </select>
+   
+             
+        </div>
+        <div id="letter">
+            Newsletter
+        </div>
+        <p id="jiyo">Subscribe to Monthly Newsletter</p>
+        <input type="text" id="newro" placeholder="Email">
+    </div>
+        <div id="under_long">
+            <div id="follow">
+                Follow us:
+            </div>
+            <div id="hero">
+                  <div id="gudo"  > <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6x1LXf76qbUfhOnE_6WGokDSV3vBP0WQH9km_XSGuAAncPyLnRIz6jFfxTArf5CToHx4&usqp=CAU" ><a href="https://www.linkedin.com/company/manageengine?MEwebsite" target="_blank" title="Follow us on LinkedIn"   ></a></div>
+                  <div id="gudo"> <img src="data:image/png;base64,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" alt=""></div>
+                  <div id="gudo" > <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Black-Logo.wine.svg" ></div>
+                  <div id="gudo" > <img src="http://assets.stickpng.com/images/5ecec6ef73e4440004f09e75.png"></div>
+                  <div id="gudo" >
+                    <img src="https://i.dlpng.com/static/png/5457065-download-youtube-logo-free-png-transparent-image-and-clipart-black-youtube-logo-png-400_400_preview.png" >
+                  </div>
+                 
+            </div>
+            <p id="division">ManageEngine is a division of <img id="zoho" src="	https://www.manageengine.com/images/zoho.png" alt=""> Corp.</p>
+        </div>
+    </div>
+    <div id="foot_line">
+        <span id="copy_year">@ 2022</span>
+        Zoho Corp. All rights reserved.
+    </div>
+
+</body>
+</html>

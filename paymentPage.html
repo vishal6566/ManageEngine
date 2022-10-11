@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="./style/paymentPage.css">
+</head>
+
+<body onload="generate()">
+    <div id="paysucess">
+        <h1>Payment Successful !</h1>
+        <img src="https://www.legalpillers.com/wp-content/uploads/2020/09/success.gif" alt="">
+    </div>
+    <div class="wrapper">
+        <h2 id="status" style="color: #ee7e6a;"></h2>
+        <input type="text" readonly id="generated-captcha">
+        <input type="text" id="entered-captcha" placeholder="Enter the captcha..">
+        <button type="button" onclick="check()"> check </button>
+        <button type="button" onclick="generate()" id="gen"> Generate New </button>
+    </div>
+
+</body>
+
+</html>
+<script src="./script/paymentPage.js"></script>

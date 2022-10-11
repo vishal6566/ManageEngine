@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets\logo.png" type="image/x-icon" />
+    <title>ManageEngine AD360 Store</title>
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/storePage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" /> -->
+</head>
+
+<body>
+    <div class="mainHeader"></div>
+    <section>
+        <div id="outerDiv">
+            <div id="innerDiv1">
+                <h2>AD360</h2>
+                <div>Home » Identity and access management » AD360</div>
+            </div>
+            <div id="innerDiv2">
+                <div>
+                    <img id="img2" src="https://store.manageengine.com/images/partners.png" alt="" />
+                    <h2 id="h2p" onclick="h2pfun()">Partners</h2>
+                </div>
+                <div>
+                    <span>VIEW CART</span>
+                    <img class="img1"
+                        src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-royal-brites-poster-foam-board-photo-paper-royal-lace-19.png"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="pageContent">
+            <div id="lhs-tree">
+                <div>
+                    <ul id="head1" onclick="main1()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Identity and access management
+                    </ul>
+                    <hr />
+                    <div id="subhead1">
+                        <p>ADManager Plus</p>
+                        <hr id="hr1" />
+                        <p>ADAudit Plus</p>
+                        <hr />
+                        <p>ADSelfService Plus</p>
+                        <hr />
+                        <p>Exchange Reporter Plus</p>
+                        <hr />
+                        <p>RecoveryManager Plus</p>
+                        <hr />
+                        <p style="color: blue">AD360</p>
+                        <hr />
+                        <p>M365 Manager Plus</p>
+                        <hr />
+                        <p>PAM360</p>
+                        <hr />
+                        <p>Password Manager Pro</p>
+                        <hr />
+                        <p>Access Manager Plus</p>
+                        <hr />
+                        <p>Key Manager Plus</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head2" onclick="main2()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Enterprise service management
+                    </ul>
+                    <hr />
+                    <div id="subhead2">
+                        <p>ServiceDesk Plus</p>
+                        <hr />
+                        <p>ServiceDesk Plus – Multi Language</p>
+                        <hr />
+                        <p>SupportCenter Plus</p>
+                        <hr />
+                        <p>AssetExplorer</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head3" onclick="main3()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Unified endpoint management and security
+                    </ul>
+                    <hr />
+                    <div id="subhead3">
+                        <p>Endpoint Central</p>
+                        <hr />
+                        <p>Mobile Device Manager Plus</p>
+                        <hr />
+                        <p>Patch Manager Plus</p>
+                        <hr />
+                        <p>Patch Connect Plus</p>
+                        <hr />
+                        <p>OS Deployer</p>
+                        <hr />
+                        <p>Remote Access Plus</p>
+                        <hr />
+                        <p>Vulnerability Manager Plus</p>
+                        <hr />
+                        <p>Device Control Plus</p>
+                        <hr />
+                        <p>Application Control Plus</p>
+                        <hr />
+                        <p>Browser Security Plus</p>
+                        <hr />
+                        <p>Endpoint DLP Plus</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head4" onclick="main4()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        IT operations management
+                    </ul>
+                    <hr />
+                    <div id="subhead4">
+                        <p>OpManager Plus</p>
+                        <hr />
+                        <p>OpManager</p>
+                        <hr />
+                        <p>OpManager Enterprise</p>
+                        <hr />
+                        <p>NetFlow Analyzer</p>
+                        <hr />
+                        <p>Network Configuration Manager</p>
+                        <hr />
+                        <p>Firewall Analyzer</p>
+                        <hr />
+                        <p>OpUtils</p>
+                        <hr />
+                        <p>Applications Manager</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head5" onclick="main5()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Security information and event management
+                    </ul>
+                    <hr />
+                    <div id="subhead5">
+                        <p>Log360</p>
+                        <hr />
+                        <p>EventLog Analyzer</p>
+                        <hr />
+                        <p>SharePoint Manager Plus</p>
+                        <hr />
+                        <p>M365 Security Plus</p>
+                        <hr />
+                        <p>Cloud Security Plus</p>
+                        <hr />
+                        <p>DataSecurity Plus</p>
+                        <hr />
+                        <p>FileAnalysis</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head6" onclick="main6()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Advanced IT analytics
+                    </ul>
+                    <hr />
+                    <div id="subhead6">
+                        <p>Analytics Plus</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head7" onclick="main7()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        Low-code app development
+                    </ul>
+                    <hr />
+                    <div id="subhead7">
+                        <p>AppCreator</p>
+                        <hr />
+                    </div>
+                </div>
+                <div>
+                    <ul id="head8" onclick="main8()">
+                        <i class="fa-solid fa-angle-right"></i>
+                        IT management for MSPs
+                    </ul>
+                    <hr />
+                    <div id="subhead8">
+                        <p>RMM Central</p>
+                        <hr />
+                        <p>ServiceDesk Plus MSP</p>
+                        <hr />
+                        <p>PAM360 MSP</p>
+                        <hr />
+                        <p>Password Manager Pro MSP</p>
+                        <hr />
+                        <p>Endpoint Central MSP</p>
+                        <hr />
+                        <p>Mobile Device Manager Plus MSP</p>
+                        <hr />
+                        <p>OpManager MSP</p>
+                        <hr />
+                        <p>ADManager Plus MSP</p>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <div id="rhsContent">
+                <div id="des">
+                    ManageEngine AD360 is an integrated identity and access management (IAM) solution for managing user
+                    <br />
+                    identities, governing access to resources, enforcing security, and ensuring compliance. From user
+                    <br />
+                    provisioning, self-service password management, and Active Directory change monitoring, to single
+                    sign-on <br />
+                    (SSO) for enterprise applications, AD360 helps you perform all your IAM tasks with a simple,
+                    easy-to-use <br />
+                    interface.
+                </div>
+                <div id="brddiv"></div>
+                <div class="clearDiv"></div>
+                <div id="viewcartdiv"></div>
+                <div id="editionDesc">
+                    <div id="sub-model">
+                        <div class="sub-model-box">
+                            <p class="sub-head">Manageengine AD360 Subscription Model</p>
+                            <div class="subBox">
+                                <div class="subBox-heading">
+                                    <h2>ADManager Plus</h2>
+                                    <i class="fa-regular fa-circle-question"></i>
+                                </div>
+
+                                <div class="subBox-content">
+                                    <p>No. of Domains</p>
+                                    <input type="text" id="input1" onkeyup="getinput1()" />
+                                    <p id="us1">US $</p>
+                                    <span id="price1">0</span>
+                                </div>
+                                <div class="subBox-content">
+                                    <p>No. of Help Desk Technicians</p>
+                                    <input type="text" id="input2" onkeyup="getinput2()" />
+                                    <p id="us2">US $</p>
+                                    <span id="price2">0</span>
+                                </div>
+                            </div>
+                            <div class="subBox">
+                                <div class="subBox-heading">
+                                    <h2>ADAudit Plus</h2>
+                                    <i class="fa-regular fa-circle-question"></i>
+                                </div>
+
+                                <div class="subBox-content">
+                                    <p>No. of Domain Controllers</p>
+                                    <input type="text" id="input3" onkeyup=" getinput3()" />
+                                    <p id="us3">US $</p>
+                                    <span id="price3">0</span>
+                                </div>
+                                <div class="subBox-content">
+                                    <p>No. of File Servers</p>
+                                    <input type="text" id="input4" onkeyup=" getinput4()" />
+                                    <p id="us4">US $</p>
+                                    <span id="price4">0</span>
+                                </div>
+                                <div class="subBox-content">
+                                    <p>No. of Member Servers</p>
+                                    <input type="text" id="input5" onkeyup=" getinput5()" />
+                                    <p id="us5">US $</p>
+                                    <span id="price5">0</span>
+                                </div>
+                                <div class="subBox-content">
+                                    <p>No. of Workstations</p>
+                                    <input type="text" id="input6" onkeyup=" getinput6()" />
+                                    <p id="us6">US $</p>
+                                    <span id="price6">0</span>
+                                </div>
+                            </div>
+                            <div class="subBox">
+                                <div class="subBox-heading">
+                                    <h2>ADManager Plus</h2>
+                                    <i class="fa-regular fa-circle-question"></i>
+                                </div>
+
+                                <div class="subBox-content">
+                                    <p>No. of Domain Users</p>
+                                    <input type="text" id="input7" onkeyup=" getinput7()" />
+                                    <p id="us7">US $</p>
+                                    <span id="price7">0</span>
+                                </div>
+                            </div>
+                            <p class="blw">Onboarding & Training <i class="fa-solid fa-angle-right"></i></p>
+                            <p class="blw">More Add-ons / Components <i class="fa-solid fa-angle-right"></i></p>
+                            <hr />
+
+                            <div id="edition">
+                                <h2>Edition:</h2>
+                                <select name="" id="edisel" onchange="getedition()">
+                                    <option value="Professional">Professional</option>
+                                    <option value="Student">Student</option>
+                                </select>
+                            </div>
+                            <hr />
+                            <div id="totalpricediv">
+                                <span id="pricetotal">0</span>
+                                <p id="ustotal">US $</p>
+                                <span>Total</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p id="pcon"><span>*</span> Inclusive of annual maintenance and support fee</p>
+                <div id="forcheck">
+                    <div>
+                        <input type="checkbox" id="check" onclick="checkfun()" />
+                        <p>
+                            I have read the license agreement and agree to its terms and conditions. I am also duly
+                            authorized to carry out this
+                            transaction.
+                        </p>
+                        <button id="cartbtnb">
+
+                            <a style="color: white; text-decoration: none" href="./orderSummaryPage.html"
+                                target="_blank">
+                                <img class="img02"
+                                    src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-royal-brites-poster-foam-board-photo-paper-royal-lace-19.png" />
+                                Add to Cart</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="no_body"></div>
+</body>
+
+</html>
+<script src="./script/storePage.js"></script>
+<script src="./script/header.js" type="module"></script>
